@@ -11,7 +11,7 @@ import TargetsChart from "../components/Content/TargetsChart"
 import LatestTasks from "../components/Content/LatestTasks"
 import TopSearch from "../components/Content/TopSearch"
 
-const Home = () => {
+const Index = () => {
   return (
     <>
       <div className="wrapper mb-7 mx-3 md:mx-5 gap-3 md:gap-5">
@@ -32,4 +32,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Index
