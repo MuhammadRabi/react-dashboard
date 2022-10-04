@@ -83,19 +83,18 @@ textarea{
 
 /* Header */
 
-.notification-icon{
+.notification-icon .item{
     position:relative;
     cursor: pointer;
 }
-.notification-icon:before{
+.notification-icon .item .counter{
     content:"";
     position:absolute;
-    width:8px;
-    height:8px;
+    width:18px;
+    height:18px;
     background-color: red;
-    top: -4px;
-    left: 12px;
-    border-radius:50%;
+    top: -7px;
+    left: 15px;
 }
 /* Header */
 

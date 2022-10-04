@@ -1,12 +1,8 @@
-import Sidebar from "../components/Sidebar/Sidebar"
-import Header from "../components/Header/Header"
-
 const Settings = () => {
   return (
     <>
-      <Sidebar />
-      <div className="widget-area w-full">
-        <Header />
+      <div className="wrapper mb-7 mx-3 md:mx-5 gap-3 md:gap-5">
+        settings page
       </div>
     </>
   )

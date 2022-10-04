@@ -1,5 +1,3 @@
-import Sidebar from "../components/Sidebar/Sidebar"
-import Header from "../components/Header/Header"
 import Welcome from "../components/Content/Welcome"
 import QuickDraft from "../components/Content/QuickDraft"
 import LatestNews from "../components/Content/LatestNews"
@@ -12,28 +10,23 @@ import LatestUploads from "../components/Content/LatestUploads"
 import TargetsChart from "../components/Content/TargetsChart"
 import LatestTasks from "../components/Content/LatestTasks"
 import TopSearch from "../components/Content/TopSearch"
-import ProjectProgress from "../components/Content/Projects/ProjectProgress"
 
 const Home = () => {
   return (
     <>
-      <Sidebar />
-      <div className="widget-area w-full">
-        <Header />
-        <div className="wrapper mb-7 mx-3 md:mx-5 gap-3 md:gap-5">
-          <Welcome />
-          <QuickDraft />
-          <TargetsChart />
-          <LatestNews />
-          <Reminder />
-          <Tickets />
-          <SocialMedia />
-          <Progress />
-          <LatestUploads />
-          <LatestPost />
-          <LatestTasks />
-          <TopSearch />
-        </div>
+      <div className="wrapper mb-7 mx-3 md:mx-5 gap-3 md:gap-5">
+        <Welcome />
+        <QuickDraft />
+        <TargetsChart />
+        <LatestNews />
+        <Reminder />
+        <Tickets />
+        <SocialMedia />
+        <Progress />
+        <LatestUploads />
+        <LatestPost />
+        <LatestTasks />
+        <TopSearch />
       </div>
     </>
   )

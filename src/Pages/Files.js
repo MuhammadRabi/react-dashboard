@@ -1,7 +1,9 @@
-import React from "react"
-
 const Files = () => {
-  return <div></div>
+  return (
+    <>
+      <div className="wrapper mb-7 mx-3 md:mx-5 gap-3 md:gap-5">files page</div>
+    </>
+  )
 }
 
 export default Files
