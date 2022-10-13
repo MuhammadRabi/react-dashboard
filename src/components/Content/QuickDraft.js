@@ -5,7 +5,7 @@ const QuickDraft = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline">quick draft</h3>
+        <h2 className="content-headline">quick draft</h2>
         <p className="sub-headline">write a draft for your ideas</p>
         <form action="">
           <input

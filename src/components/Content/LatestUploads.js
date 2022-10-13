@@ -7,7 +7,7 @@ const LatestUploads = () => {
     <>
       <WidgetLayout>
         <div className="latest-upload">
-          <h3 className="content-headline">latest Uploads</h3>
+          <h2 className="content-headline">latest Uploads</h2>
           <ul>
             {data.map((item) => {
               return <LatestUploadItem key={item.id} {...item} />

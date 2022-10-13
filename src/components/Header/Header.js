@@ -3,13 +3,13 @@ import avatar from "./../../imgs/avatar.png"
 const Header = () => {
   return (
     <>
-      <header className="bg-white p-3 mb-4 flex justify-between items-center">
+      <header className="bg-white p-4 mb-4 flex justify-between items-center">
         <input
           type="text"
           placeholder="type a keyword"
           className="px-2 py-1 ml-4 outline-none capitalize block border rounded-md"
         />
-        <div className="avatar flex items-center space-x-12">
+        <div className="avatar flex items-center space-x-2">
           <div className="notification-icon flex items-center space-x-6 text-zinc-600 text-2xl">
             <div className="item">
               <FaRegBell />

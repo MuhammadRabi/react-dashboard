@@ -5,7 +5,7 @@ const Progress = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline blue">latest projects progress</h3>
+        <h2 className="content-headline blue">latest projects progress</h2>
         <div className="progress-content relative">
           <ul className="project-list relative mt-5 ml-2 pl-4 capitalize">
             <li className="relative p-1.5 mb-1 done">wireframes ready</li>

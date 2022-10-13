@@ -5,7 +5,7 @@ const TargetsChart = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline">yearly targets</h3>
+        <h2 className="content-headline">yearly targets</h2>
         <BarChart />
       </WidgetLayout>
     </>

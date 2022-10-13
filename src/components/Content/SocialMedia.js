@@ -6,7 +6,7 @@ const SocialMedia = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline">Social media stats</h3>
+        <h2 className="content-headline">Social media stats</h2>
         <div className="social-box flex justify-between items-center text-white mb-2 mt-8">
           <div className="icon p-4 mr-4">
             <FaTwitter size="24" />

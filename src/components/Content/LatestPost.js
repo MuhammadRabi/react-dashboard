@@ -5,7 +5,7 @@ const LatestPost = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline">latest post</h3>
+        <h2 className="content-headline">latest post</h2>
         <div className="flex flex-col">
           <div className="flex justify-start items-center mb-4 pb-4 border-b-2 border-gray-100">
             <img src={avatar} className="w-12 h-12 mr-4" alt="avatar" />

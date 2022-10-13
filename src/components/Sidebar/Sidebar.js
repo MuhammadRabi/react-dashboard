@@ -3,7 +3,7 @@ import SidebarItem from "./SidebarItem"
 
 const Sidebar = () => {
   return (
-    <div className="sidebar py-2 bg-white relative">
+    <div className="sidebar w-16 sm:w-60  flex-1 py-2 bg-white relative">
       <h3 className="content-headline">sidebar</h3>
       <ul className="mt-12 px-3">
         <SidebarItem type="dashboard" />

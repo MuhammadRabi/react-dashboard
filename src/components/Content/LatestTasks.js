@@ -6,7 +6,7 @@ const LatestTasks = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline">latest tasks</h3>
+        <h2 className="content-headline">latest tasks</h2>
         <article className="flex justify-between py-2 items-center border-b">
           <div className="capitalize text-sm">
             <h5 className="font-bold">coding for 3 hours</h5>

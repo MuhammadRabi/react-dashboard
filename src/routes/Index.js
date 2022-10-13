@@ -10,6 +10,7 @@ import LatestUploads from "../components/Content/LatestUploads"
 import TargetsChart from "../components/Content/TargetsChart"
 import LatestTasks from "../components/Content/LatestTasks"
 import TopSearch from "../components/Content/TopSearch"
+import ProjectProgress from "../components/Content/Projects/ProjectProgress"
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
         <LatestTasks />
         <TopSearch />
       </div>
+      <ProjectProgress />
     </>
   )
 }

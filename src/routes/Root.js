@@ -7,7 +7,7 @@ const Root = () => {
   return (
     <PageLayout>
       <Sidebar />
-      <div className="w-full">
+      <div className="w-full overflow-hidden">
         <Header />
         <Outlet />
       </div>

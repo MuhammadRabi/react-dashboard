@@ -11,7 +11,7 @@ const Tickets = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline">latest tickets</h3>
+        <h2 className="content-headline">latest tickets</h2>
         <p className="sub-headline">everything about support tickets</p>
         <div className="tickets-wrapper flex flex-wrap justify-between px-6 pt-4">
           <div className="ticket-box border text-center p-5 mb-2 rounded-md border-slate-400 w-full">

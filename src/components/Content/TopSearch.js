@@ -5,7 +5,7 @@ const TopSearch = () => {
   return (
     <>
       <WidgetLayout>
-        <h3 className="content-headline">top search results</h3>
+        <h2 className="content-headline">top search results</h2>
         <div className="flex justify-between mb-1 capitalize text-zinc-400 text-sm">
           <h5>keyword</h5>
           <span>search count</span>

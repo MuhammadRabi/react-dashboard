@@ -10,7 +10,7 @@
 /* Wrapper */
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(450px,1fr));
     
 }
 
@@ -33,7 +33,7 @@ textarea{
 /* component classes */
 
 .content-headline {
-    @apply mb-2 text-lg font-bold capitalize;
+    @apply mb-4 text-2xl font-bold capitalize;
 }
 
 .sub-headline{
@@ -256,4 +256,8 @@ table tbody img:not(:first-child){
     margin-left:-15px;
     background-color: white;
     border:2px solid white;
+}
+
+.sidebar li a.active{
+    background-color: rgb(239 246 255);
 }

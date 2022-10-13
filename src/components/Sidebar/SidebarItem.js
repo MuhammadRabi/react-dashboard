@@ -15,19 +15,28 @@ const SidebarItem = ({ type }) => {
   if (type === "dashboard") {
     data = {
       icon: (
-        <FaDiceSix size="24" className="text-zinc-500 hover:text-blue-500" />
+        <FaDiceSix
+          size="24"
+          className="sm:mr-4 text-center text-zinc-500 hover:text-blue-500"
+        />
       ),
     }
   } else if (type === "settings") {
     data = {
       icon: (
-        <FaWrench size="24" className="text-zinc-500 hover:text-blue-500" />
+        <FaWrench
+          size="24"
+          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+        />
       ),
     }
   } else if (type === "profile") {
     data = {
       icon: (
-        <FaUserTie size="24" className="text-zinc-500 hover:text-blue-500" />
+        <FaUserTie
+          size="24"
+          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+        />
       ),
     }
   } else if (type === "projects") {
@@ -35,42 +44,57 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaProjectDiagram
           size="24"
-          className="text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
         />
       ),
     }
   } else if (type === "courses") {
     data = {
-      icon: <FaBook size="24" className="text-zinc-500 hover:text-blue-500" />,
+      icon: (
+        <FaBook
+          size="24"
+          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+        />
+      ),
     }
   } else if (type === "friends") {
     data = {
       icon: (
         <FaUserFriends
           size="24"
-          className="text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
         />
       ),
     }
   } else if (type === "files") {
     data = {
       icon: (
-        <FaRegFileAlt size="24" className="text-zinc-500 hover:text-blue-500" />
+        <FaRegFileAlt
+          size="24"
+          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+        />
       ),
     }
   } else if (type === "plans") {
     data = {
       icon: (
-        <FaChromecast size="24" className="text-zinc-500 hover:text-blue-500" />
+        <FaChromecast
+          size="24"
+          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+        />
       ),
     }
   }
   return (
     <>
-      <li className="flex items-center text-center mb-1 capitalize py-2 px-5 cursor-pointer rounded-md hover:bg-blue-50 duration-300">
-        {data.icon}
-        <NavLink to={`/${type}`} className="ml-5 hidden sm:block">
-          {type}
+      <li className="mb-1 capitalize cursor-pointer rounded-md hover:bg-blue-50 duration-300">
+        <NavLink
+          to={type === "dashboard" ? "/" : type}
+          className="flex items-center justify-start text-center p-2 rounded-md sm:py-2 sm:px-5"
+          end
+        >
+          {data.icon}
+          <span className="hidden sm:block">{type}</span>
         </NavLink>
       </li>
     </>
