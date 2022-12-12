@@ -17,7 +17,7 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaDiceSix
           size="24"
-          className="sm:mr-4 text-center text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-center text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
@@ -26,7 +26,7 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaWrench
           size="24"
-          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
@@ -35,7 +35,7 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaUserTie
           size="24"
-          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
@@ -44,7 +44,7 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaProjectDiagram
           size="24"
-          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
@@ -53,7 +53,7 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaBook
           size="24"
-          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
@@ -62,7 +62,7 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaUserFriends
           size="24"
-          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
@@ -71,7 +71,7 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaRegFileAlt
           size="24"
-          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
@@ -80,14 +80,14 @@ const SidebarItem = ({ type }) => {
       icon: (
         <FaChromecast
           size="24"
-          className="sm:mr-4 text-zinc-500 hover:text-blue-500"
+          className="sm:mr-4 text-zinc-500 dark:text-slate-100 hover:text-blue-500"
         />
       ),
     }
   }
   return (
     <>
-      <li className="mb-1 capitalize cursor-pointer rounded-md hover:bg-blue-50 duration-300">
+      <li className="mb-1 capitalize cursor-pointer rounded-md hover:bg-blue-50 dark:text-slate-100 dark:hover:bg-blue-800 duration-300">
         <NavLink
           to={type === "dashboard" ? "/" : type}
           className="flex items-center justify-start text-center p-2 rounded-md sm:py-2 sm:px-5"

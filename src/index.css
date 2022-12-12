@@ -31,23 +31,23 @@ textarea{
 }
 
 /* component classes */
+@layer components {
+    .content-headline {
+        @apply mb-4 text-2xl font-bold capitalize;
+    }
 
-.content-headline {
-    @apply mb-4 text-2xl font-bold capitalize;
+    .sub-headline{
+        @apply mb-3 text-sm text-slate-500 capitalize;
+    }
+
+    .button{
+        @apply bg-blue-500 text-white px-4 mt-5 capitalize font-bold block py-1 rounded-md w-fit cursor-pointer hover:bg-blue-400;
+    }
+
+    .social-buttons{
+        @apply px-3 py-1 text-xs capitalize font-bold rounded-md mr-3;
+    }
 }
-
-.sub-headline{
-    @apply mb-3 text-sm text-slate-500 capitalize;
-}
-
-.button{
-    @apply bg-blue-500 text-white px-4 mt-5 capitalize font-bold block py-1 rounded-md w-fit cursor-pointer hover:bg-blue-400;
-}
-
-.social-buttons{
-    @apply px-3 py-1 text-xs capitalize font-bold rounded-md mr-3;
-}
-
 /* component classes */
 
 /* tickets */
@@ -258,6 +258,11 @@ table tbody img:not(:first-child){
     border:2px solid white;
 }
 
+
 .sidebar li a.active{
     background-color: rgb(239 246 255);
+}
+
+.dark .sidebar li a.active{
+    background-color: rgb(115, 172, 246);
 }
